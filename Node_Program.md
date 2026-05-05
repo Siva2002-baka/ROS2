@@ -3,7 +3,7 @@
 ## Creating a Package
 ```
 cd ~/ros2_ws/src/
-ros2 pkg <package_name> --build-type ament_python --dependencies rclpy
+ros2 pkg create <package_name> --build-type ament_python --dependencies rclpy
 ```
 
 ## Creating a Node
